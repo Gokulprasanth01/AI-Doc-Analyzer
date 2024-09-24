@@ -1,6 +1,6 @@
 # AI Document Analyzer
 
-This project is a web-based application that utilizes NLP (Natural Language Processing) models to analyze legal documents. Users can upload PDF files, which are processed to extract text, classify document types, summarize content, and highlight key clauses and entities. The analysis and classification make use of pre-trained transformer models, with an integration to the Groq API for document type classification.
+This project is a web-based application that utilizes NLP (Natural Language Processing) models to analyze documents. Users can upload PDF files, which are processed to extract text, classify document types, summarize content, and highlight key clauses and entities. The analysis and classification make use of pre-trained transformer models, with an integration to the Groq API for document type classification.
 
 ## Table of Contents
 1. [Features](#features)
@@ -32,8 +32,8 @@ Ensure you have Python 3.7+ and `pip` installed on your machine.
 ### Steps
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/legal-document-analyzer.git
-    cd legal-document-analyzer
+    git clone https://github.com/yourusername/ -document-analyzer.git
+    cd  -document-analyzer
     ```
 
 2. Install the required Python libraries:
@@ -67,4 +67,4 @@ Ensure you have Python 3.7+ and `pip` installed on your machine.
 - **Multi-Language Support**: Extend functionality to handle documents in multiple languages.
 - **User Authentication**: Add user authentication for a more secure document handling experience.
 
-This project provides a streamlined interface for legal document analysis using state-of-the-art NLP techniques and transformer models.
+This project provides a streamlined interface for document analysis using state-of-the-art NLP techniques and transformer models.
