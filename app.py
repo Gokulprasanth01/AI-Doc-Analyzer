@@ -7,7 +7,7 @@ from analyze import analyze_text
 from summarization import summarize_text
 
 # Initialize Groq client with the API key
-client = Groq(api_key="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")
+client = Groq(api_key="you api key")
 
 # Set up file upload
 st.title('AI Legal Document Analyzer')
