@@ -27,31 +27,32 @@ This project is a web-based application that utilizes NLP (Natural Language Proc
 
 ## Installation
 ### Prerequisites
-Ensure you have Python 3.7+ and "pip" installed on your machine.
+Ensure you have Python 3.7+ and `pip` installed on your machine.
 
 ### Steps
 1. Clone the repository:
-
+    ```bash
     git clone https://github.com/yourusername/legal-document-analyzer.git
     cd legal-document-analyzer
-
+    ```
 
 2. Install the required Python libraries:
-
+    ```bash
     pip install -r requirements.txt
-
+    ```
 
 3. Obtain the Groq API key from the Groq platform and replace the placeholder in the `app.py` file:
-
+    ```python
     client = Groq(api_key="your_groq_api_key_here")
+    ```
 
 4. Run the Streamlit application:
-
+    ```bash
     streamlit run app.py
-
+    ```
 
 ## Usage
-1. Open the application in a browser, typically at "http://localhost:8501".
+1. Open the application in a browser, typically at `http://localhost:8501`.
 2. Upload a PDF file by clicking on the "Choose a PDF file" button.
 3. The app will:
    - Extract text from the PDF.
